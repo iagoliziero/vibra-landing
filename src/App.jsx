@@ -1,12 +1,15 @@
 
 import './App.css'
+import Header from './components/Header'
 
 function App() {
 
 
   return (
     <>
-      <h1>  hello world</h1>
+      <body className='h-screen  bg-whiteMain m-0 p-0'>
+        <Header />
+      </body>
     </>
   )
 }
