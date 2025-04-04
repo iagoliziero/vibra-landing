@@ -7,6 +7,7 @@ import CardInformation from './components/CardInformation'
 
 import Button from './components/Button'
 import SectionInformation from './components/SectionInformation'
+import Profile from './components/Profile'
 
 function App() {
 
@@ -46,8 +47,14 @@ function App() {
                 <CardInformation />
               </div>
           </div>
-            
+          <div className='mt-6 xxl:mt8'>
+            <Button />
+          </div>
+          <div className='mt-6 xxl:mt8 lg:max-w-[100%]'>
+            <Profile />
+          </div>
       </div>
+      
     </>
   )
 }
