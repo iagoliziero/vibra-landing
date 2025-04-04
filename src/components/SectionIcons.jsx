@@ -12,7 +12,7 @@ const SectionIcons = () => {
             <Dumbbell size={80} strokeWidth={1.25} className="text-darkPink" />
           </Icon>
           <Paragraph>
-            Quer criar novos hábitos mas não sabe por onde começar
+            Quer novos hábitos mas não sabe por onde começar
           </Paragraph>
         </DivIcons>
 
@@ -42,7 +42,7 @@ const SectionIcons = () => {
             <HeartHandshake size={80} strokeWidth={1.25} className="text-darkPink" />
           </Icon>
           <Paragraph>
-            Gosta de estar em grupo e trocar com outras meninas
+          Gosta de estar em grupo e falar com outras meninas
           </Paragraph>
         </DivIcons>
         </>

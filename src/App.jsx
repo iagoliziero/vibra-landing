@@ -15,7 +15,7 @@ function App() {
         <Header />
 
         <div className="mt-[3.5rem] xl:mt-20 flex flex-col gap-4 max-w-[90%]">
-          <div className="text-center relative">
+          <div className="text-center relative ">
             <H1>Você sente que tá meio travada?</H1>
           </div>
           <span>
@@ -58,8 +58,11 @@ function App() {
           <Profile />
         </div>
 
-        <SectionIcons />
-        
+        <div className="w-full flex flex-col gap-4 mt-6 xxl:mt-8 flex-wrap justify-center items-center xl:flex-row lg:max-w-[65%]">
+  <SectionIcons />
+</div>
+
+
       </div>
     </>
   );
