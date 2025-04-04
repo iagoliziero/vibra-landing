@@ -7,11 +7,13 @@ import Button from "./components/Button";
 import SectionInformation from "./components/SectionInformation";
 import Profile from "./components/Profile";
 import SectionIcons from "./components/SectionIcons";
+import ImageCarousel from "./components/ImageCarousel";
+
 
 function App() {
   return (
     <>
-      <div className="flex flex-col items-center h-screen bg-whiteMain m-0 p-0 overflow-auto">
+      <div className="flex flex-col items-center h-screen bg-whiteMain m-0 p-0">
         <Header />
 
         <div className="mt-[3.5rem] xl:mt-20 flex flex-col gap-4 max-w-[90%]">
@@ -64,6 +66,13 @@ function App() {
         <div className="mt-6 xxl:mt-8">
           <Button />
         </div>
+        
+        <div className="flex flex-col items-center mt-6 xxl:mt-8 ">
+        <div className="text-center relative">
+            <H1>Feedbacks</H1>
+          </div>
+      <span className="mt-6 xxl:mt-8"> <ImageCarousel /> </span>
+      </div>
       </div>
       
     </>
