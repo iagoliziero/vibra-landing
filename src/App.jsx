@@ -31,7 +31,7 @@ function App() {
           <div className='mt-6 xxl:mt8'>
             <Button />
           </div>
-          <div className=' flex flex-col gap-4 max-w-[90%]'>
+          <div className=' flex flex-col gap-4'>
             <div className='text-center relative'>
               <H1> 
               O que é a vibra?
@@ -40,14 +40,14 @@ function App() {
             <span> <Paragraph> 
             É um grupo no WhatsApp só com meninas que querem sair da estagnação e começar a virar a chave.
               </Paragraph> </span>
-              <div className='flex justify-center  xxl:mt8'>
+              <div className='flex justify-center xxl:mt8'>
                 <SectionInformation />
               </div>
               <div className='flex justify-center mt-6 xxl:mt8'>
                 <CardInformation />
               </div>
           </div>
-          <div className='mt-6 xxl:mt8'>
+          <div className='mt-6 xxl:mt-8'>
             <Button />
           </div>
           <div className='mt-6 xxl:mt8'>

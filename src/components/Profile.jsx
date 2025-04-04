@@ -1,5 +1,6 @@
 import Button from "./Button";
 import H1 from "./H1";
+import H2 from "./H2";
 import Paragraph from "./Paragraph";
 
 const Profile = () => {
@@ -22,9 +23,9 @@ const Profile = () => {
                     <span> <Paragraph> 
                     A Comunidade Vibra nasceu do meu próprio processo - de quando eu precisei reconstruir minha rotina, me entender e aprender a fazer as pazes com o tempo, com meu corpo e com a minha mente.
                     </Paragraph> </span>
-                    <div className="relative lg:left-36">
-                    <H1> 1% melhor que ontem!</H1> 
-                    <div className="flex justify-center">
+                    <div className="relative lg:left-36 ">
+                    <H2> 1% melhor que ontem!</H2> 
+                    <div className="flex justify-center mt-6 xxl:mt8">
                         <Button />
                      </div>  
                     </div>
