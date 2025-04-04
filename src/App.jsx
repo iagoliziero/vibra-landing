@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Paragraph from './components/Paragraph'
 import { Brain, HandHeart, Leaf, Wind } from 'lucide-react'
 import SectionInformation from './components/SectionInformation'
+import Button from './components/Button'
 
 function App() {
 
@@ -25,7 +26,9 @@ function App() {
               </Paragraph> </span>
               
           </div>
-          
+          <div className='mt-6 xxl:mt8'>
+            <Button />
+          </div>
             
       </div>
     </>
