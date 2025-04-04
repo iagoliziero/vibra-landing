@@ -1,4 +1,3 @@
-import Paragraph from "./Paragraph";
 
 const Icon = (props) => {
     return ( 
