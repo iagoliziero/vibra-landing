@@ -4,7 +4,7 @@ import Paragraph from "./Paragraph";
 
 const Profile = () => {
     return ( 
-        <div className="flex flex-col items-center h-[47rem] lg:h-[33rem] w-full bg-lightPink overflow-hidden justify-center'>">
+        <div className="flex flex-col items-center h-[47rem] lg:h-[37rem] w-full bg-lightPink overflow-hidden mb-10 *:lg:mb-0 lg:rounded-3xl shadow-lg shadow-lightPink/50">
             <div className=' flex gap-8 max-w-[90%] '>
                 <div className='text-center relative flex flex-col items-center justify-center  '>
                     <div className="mt-6 xxl:mt8 flex flex-col items-center justify-center max-w-4xl md:max-w-2xl">
@@ -15,13 +15,14 @@ const Profile = () => {
                     </div>
                     </div>
                     <span className="mt-6"> <Paragraph> 
-                    Oi! Eu sou a Ana Luyza, influenciadora digital, estudante de nutrição e uma menina como você: cheia de sonhos, mas que já se viu perdida no meio do caminho.
+                    Oi! Eu sou a Ana Luyza, influenciadora digital,
+                    <br /> estudante de nutrição e uma menina como você: cheia de sonhos, mas que já se viu perdida no meio do caminho.
                     </Paragraph> </span>
                     <br />
                     <span> <Paragraph> 
                     A Comunidade Vibra nasceu do meu próprio processo - de quando eu precisei reconstruir minha rotina, me entender e aprender a fazer as pazes com o tempo, com meu corpo e com a minha mente.
                     </Paragraph> </span>
-                    <div className="flex flex-col justify-center">
+                    <div className="relative lg:left-36">
                     <H1> 1% melhor que ontem!</H1> 
                     <div className="flex justify-center">
                         <Button />

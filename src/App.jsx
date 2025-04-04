@@ -16,7 +16,7 @@ function App() {
     <>
       <div className=' flex flex-col items-center  h-screen  bg-whiteMain m-0 p-0 overflow-auto'>
         <Header />
-          <div className='mt-[3.5rem] xl:mt-16 flex flex-col gap-4 max-w-[90%]'>
+          <div className='mt-[3.5rem] xl:mt-20 flex flex-col gap-4 max-w-[90%]'>
             <div className='text-center relative'>
               <H1> 
               Você sente que tá 
@@ -50,7 +50,7 @@ function App() {
           <div className='mt-6 xxl:mt8'>
             <Button />
           </div>
-          <div className='mt-6 xxl:mt8 lg:max-w-[100%]'>
+          <div className='mt-6 xxl:mt8'>
             <Profile />
           </div>
       </div>
