@@ -1,10 +1,10 @@
 
 import './App.css'
-import Card from './components/Card'
 import H1 from './components/H1'
 import Header from './components/Header'
 import Paragraph from './components/Paragraph'
-import CardInformation from './components/CardInformation'
+import { Brain, HandHeart, Leaf, Wind } from 'lucide-react'
+import SectionInformation from './components/SectionInformation'
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
       <div className=' flex flex-col items-center  h-screen  bg-whiteMain m-0 p-0'>
         <Header />
           <div className='mt-[3.5rem] xl:mt-16 flex flex-col gap-4 max-w-[90%]'>
-            <div className='text-center'>
+            <div className='text-center relative'>
               <H1> 
               Você sente que tá 
               meio travada?
@@ -25,6 +25,8 @@ function App() {
               </Paragraph> </span>
               
           </div>
+          
+            
       </div>
     </>
   )
