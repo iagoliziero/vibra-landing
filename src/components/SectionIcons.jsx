@@ -1,7 +1,7 @@
 import { Dumbbell, HeartHandshake,Play, Sprout, TriangleAlert } from "lucide-react";
 import Paragraph from "./Paragraph";
-import DivIcons from "./DivIcons";
 import Icon from "./Icon";
+import DivIcons from "./DivIcons";
 
 
 const SectionIcons = () => {

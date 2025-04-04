@@ -6,7 +6,7 @@ import CardInformation from "./components/CardInformation";
 import Button from "./components/Button";
 import SectionInformation from "./components/SectionInformation";
 import Profile from "./components/Profile";
-import  SectionIcons from "./components/SectionIcons";
+import SectionIcons from "./components/SectionIcons";
 
 function App() {
   return (
@@ -59,11 +59,13 @@ function App() {
         </div>
 
         <div className="w-full flex flex-col gap-4 mt-6 xxl:mt-8 flex-wrap justify-center items-center xl:flex-row lg:max-w-[65%]">
-  <SectionIcons />
-</div>
-
-
+          <SectionIcons />
+        </div>
+        <div className="mt-6 xxl:mt-8">
+          <Button />
+        </div>
       </div>
+      
     </>
   );
 }
