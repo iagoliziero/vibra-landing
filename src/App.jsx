@@ -8,7 +8,7 @@ import SectionInformation from "./components/SectionInformation";
 import Profile from "./components/Profile";
 import SectionIcons from "./components/SectionIcons";
 import ImageCarousel from "./components/ImageCarousel";
-
+import Tooltip from "./components/Tooltip";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <div className="flex flex-col items-center h-screen bg-whiteMain m-0 p-0">
         <Header />
 
-        <div className="mt-[3.5rem] xl:mt-20 flex flex-col gap-4 max-w-[90%]">
+        <div className="mt-[3.5rem] xl:mt-20 flex flex-col gap-4 max-w-[90%] ">
           <div className="text-center relative ">
             <H1>Você sente que tá meio travada?</H1>
           </div>
@@ -32,7 +32,7 @@ function App() {
           <Button />
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 max-w-[90%]">
           <div className="text-center relative">
             <H1>O que é a vibra?</H1>
           </div>
@@ -66,15 +66,31 @@ function App() {
         <div className="mt-6 xxl:mt-8">
           <Button />
         </div>
-        
+
         <div className="flex flex-col items-center mt-6 xxl:mt-8 ">
-        <div className="text-center relative">
+          <div className="text-center relative">
             <H1>Feedbacks</H1>
           </div>
-      <span className="mt-6 xxl:mt-8"> <ImageCarousel /> </span>
+          <span className="mt-6 xxl:mt-8">
+            {" "}
+            <ImageCarousel />{" "}
+          </span>
+        </div>
+        <div className="flex flex-col gap-4 max-w-[90%] mt-6 xxl:mt-8">
+          <H1>E o melhor...</H1>
+          <span>
+            <Paragraph>
+              É de graça! Sem enrolação. Sem promessa mirabolante. Só um espaço
+              real, com muita troca e transformação juntas.
+            </Paragraph>
+          </span>
+        </div>
+        <footer className="bg-lightPink  w-full m-0 p-5 flex justify-center items-center z-50 mt-6 xxl:mt-8'">
+          <div className="flex justify-center items-center w-full max-w-4xl md:max-w-2xl">
+            <Tooltip />
+          </div>
+        </footer>
       </div>
-      </div>
-      
     </>
   );
 }
