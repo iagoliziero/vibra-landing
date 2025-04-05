@@ -1,4 +1,5 @@
 import { Menu } from "lucide-react";
+import DropDownMenu from "./DropDownMenu";
 
 const Header = () => {
     return ( 
@@ -7,7 +8,7 @@ const Header = () => {
           <h1 className='font-darker font-semibold text-3xl md:text-4xl xxl:text-[3rem] '>Comunidade Vibra</h1>
        
         </div>
-        <span> <Menu size={30} className="cursor-pointer" /> </span>
+        <DropDownMenu />
       </header>
      );
 }
