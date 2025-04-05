@@ -26,7 +26,7 @@ const ImageCarousel = () => {
               <img
                 src={src}
                 alt={`Slide ${index + 1}`}
-                className="w-max-[50%] h-[18rem] lg:h-[30rem] object-cover rounded-3xl"
+                className="w-max-[50%] h-[18rem] md:h-[20rem] lg:h-[30rem] object-cover rounded-3xl"
               />
             </CarouselItem>
           ))}
