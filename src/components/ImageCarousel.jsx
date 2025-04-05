@@ -18,7 +18,7 @@ const images = [
 
 const ImageCarousel = () => {
   return (
-    <div className="max-w-2xl rounded-xl flex flex-col overflow-hidden relative">
+    <div className="max-w-2xl md:max-w-xl lg:max-w-2xl rounded-xl flex flex-col overflow-hidden relative">
       <Carousel opts={{ loop: true }}>
         <CarouselContent>
           {images.map((src, index) => (
@@ -32,12 +32,12 @@ const ImageCarousel = () => {
           ))}
         </CarouselContent>
 
-        {/* Botão Anterior */}
+        
         <CarouselPrevious className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 p-3 rounded-full text-black hover:bg-opacity-80">
           <ChevronLeft size={30} />
         </CarouselPrevious>
 
-        {/* Botão Próximo */}
+        
         <CarouselNext className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 p-3 rounded-full text-black hover:bg-opacity-80">
           <ChevronRight size={30} />
         </CarouselNext>
