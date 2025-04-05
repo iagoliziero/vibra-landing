@@ -9,6 +9,8 @@ import Profile from "./components/Profile";
 import SectionIcons from "./components/SectionIcons";
 import ImageCarousel from "./components/ImageCarousel";
 import Tooltip from "./components/Tooltip";
+import H2 from "./components/H2";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -85,11 +87,7 @@ function App() {
             </Paragraph>
           </span>
         </div>
-        <footer className="bg-lightPink  w-full m-0 p-5 flex justify-center items-center z-50 mt-6 xxl:mt-8'">
-          <div className="flex justify-center items-center w-full max-w-4xl md:max-w-2xl">
-            <Tooltip />
-          </div>
-        </footer>
+        <Footer />
       </div>
     </>
   );
