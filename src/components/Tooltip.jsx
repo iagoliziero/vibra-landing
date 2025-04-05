@@ -11,7 +11,8 @@ const Tooltip = () => {
           </a>
         </li>
         <li className="hover:scale-110 transition-transform duration-300">
-          <a href="https://www.youtube.com/@analuyza" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@analucosme
+" target="_blank" rel="noopener noreferrer">
             <FaYoutube size={35}/>
           </a>
         </li>
@@ -21,7 +22,7 @@ const Tooltip = () => {
           </a>
         </li>
         <li className="hover:scale-110 transition-transform duration-300">
-          <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5511968995367?text=Ol%C3%A1%2C%20quero%20fazer%20parte%20da%20comunidade%20Vibra%20%F0%9F%8C%9F" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp size={35}/>
           </a>
         </li>
