@@ -4,14 +4,14 @@ import styled from 'styled-components';
 const Button = () => {
   return (
     <StyledWrapper>
-      <button > Quero entrar agora
-      </button>
+      <a href='https://wa.me/5511968995367?text=Ol%C3%A1%2C%20quero%20fazer%20parte%20da%20comunidade%20Vibra%20%F0%9F%8C%9F' > Quero entrar agora
+      </a>
     </StyledWrapper>
   );
 }
 
 const StyledWrapper = styled.div`
-  button {
+  a {
     position: relative;
     display: inline-block;
     margin: 15px;
@@ -30,17 +30,17 @@ const StyledWrapper = styled.div`
     font-family: 'darker', sans-serif;
   }
 
-  button:hover {
+  a:hover {
     color: white;
     box-shadow: inset 0 -100px 0 0 #E5457D;
   }
 
-  button:active {
+  a:active {
     transform: scale(0.9);
   }
   
   @media (max-width: 600px) {
-    button {
+    a {
         padding: 10px 15px;
     }
 }
