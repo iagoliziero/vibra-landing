@@ -8,8 +8,6 @@ import SectionInformation from "./components/SectionInformation";
 import Profile from "./components/Profile";
 import SectionIcons from "./components/SectionIcons";
 import ImageCarousel from "./components/ImageCarousel";
-import Tooltip from "./components/Tooltip";
-import H2 from "./components/H2";
 import Footer from "./components/Footer";
 
 function App() {
@@ -17,9 +15,9 @@ function App() {
     <>
       <div className="flex flex-col items-center h-screen bg-whiteMain m-0 p-0">
         <Header />
-
+        <span id="1"></span>
         <div className="mt-[3.5rem] xl:mt-20 flex flex-col gap-4 max-w-[90%] ">
-          <div className="text-center relative ">
+          <div  className="text-center relative ">
             <H1>Você sente que tá meio travada?</H1>
           </div>
           <span>
@@ -29,13 +27,13 @@ function App() {
             </Paragraph>
           </span>
         </div>
-
+        <span id="2"></span>
         <div className="mt-6 xxl:mt8">
           <Button />
         </div>
-
-        <div className="flex flex-col gap-4 max-w-[90%]">
-          <div className="text-center relative">
+      
+        <div  className="flex flex-col gap-4 max-w-[90%]">
+          <div id="2" className="text-center relative">
             <H1>O que é a vibra?</H1>
           </div>
           <span>
@@ -53,12 +51,12 @@ function App() {
             <CardInformation />
           </div>
         </div>
-
+        <span id="3"></span>
         <div className="mt-6 xxl:mt-8">
           <Button />
         </div>
 
-        <div className="mt-6 xxl:mt8">
+        <div  className="mt-6 xxl:mt8">
           <Profile />
         </div>
 
@@ -68,7 +66,7 @@ function App() {
         <div className="mt-6 xxl:mt-8">
           <Button />
         </div>
-
+        <span id="4"></span>
         <div className="flex flex-col items-center mt-6 xxl:mt-8 ">
           <div className="text-center relative">
             <H1>Feedbacks</H1>
@@ -77,8 +75,9 @@ function App() {
             {" "}
             <ImageCarousel />{" "}
           </span>
+        
         </div>
-        <div className="flex flex-col gap-4 max-w-[90%] mt-6 xxl:mt-8">
+        <div id="5" className="flex flex-col gap-4 max-w-[90%] mt-6 xxl:mt-8">
           <H1>E o melhor...</H1>
           <span>
             <Paragraph>
