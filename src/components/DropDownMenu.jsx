@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const DropDownMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
-    
+
     return ( 
         <div className="relative right-0 z-50 flex items-center">
             <a onClick={() => setIsOpen(!isOpen)}> {!isOpen ? <Menu size={30} className="cursor-pointer" /> : <X size={30} className="cursor-pointer"  />} </a>
@@ -18,7 +18,7 @@ const DropDownMenu = () => {
                         <a href="#5" className="hover:bg-gray-200 transform duration-500 p-2 rounded-md text-xl font-medium">E o melhor...</a>
                     </div>
                     <div className="mt-10">
-                    <a href="3" className="hover:bg-gray-200 text-darkPink p-2 rounded-md text-xl font-medium ">Entrar agora</a>
+                    <a href="https://wa.me/5511968995367?text=Ol%C3%A1%2C%20quero%20fazer%20parte%20da%20comunidade%20Vibra%20%F0%9F%8C%9F" className="hover:bg-gray-200 text-darkPink p-2 rounded-md text-xl font-medium ">Entrar agora</a>
                     </div>
                 </div>
             )}
