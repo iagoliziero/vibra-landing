@@ -16,6 +16,9 @@ const DropDownMenu = () => {
                         <a href="#4" className="hover:bg-gray-200 p-2 rounded-md text-xl font-medium">Feedbacks</a>
                         <a href="#5" className="hover:bg-gray-200 p-2 rounded-md text-xl font-medium">E o melhor...</a>
                     </div>
+                    <div className="mt-10">
+                    <a href="3" className="hover:bg-gray-200 text-darkPink p-2 rounded-md text-xl font-medium ">Entrar agora</a>
+                    </div>
                 </div>
             )}
         </div>
