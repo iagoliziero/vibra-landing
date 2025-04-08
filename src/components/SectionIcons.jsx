@@ -4,9 +4,11 @@ import Icon from "./Icon";
 import DivIcons from "./DivIcons";
 
 
+
 const SectionIcons = () => {
     return ( 
         <> 
+        
         <DivIcons>
           <Icon>
             <Dumbbell size={80} strokeWidth={1.25} className="text-darkPink" />
@@ -15,14 +17,14 @@ const SectionIcons = () => {
             Quer novos hábitos mas não sabe por onde começar
           </Paragraph>
         </DivIcons>
-
+      
         <DivIcons>
           <Icon>
             <Play size={80} strokeWidth={1.25} className="text-darkPink" />
           </Icon>
           <Paragraph>Pra quem sente que tá parada e quer se mexer.</Paragraph>
         </DivIcons>
-
+          
         <DivIcons>
           <Icon>
             <Sprout size={80} strokeWidth={1.25} className="text-darkPink" />

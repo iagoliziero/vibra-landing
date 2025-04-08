@@ -13,6 +13,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
 import ScrollGsap from "./components/ScrollGsap";
+import ScrollLeftToRight from "./components/ScrollLeftToRight";
+import ScrollRightToLeft from "./components/ScrollRightToLeft";
 
 function App() {
   useLayoutEffect(() => {}, []);
@@ -61,13 +63,16 @@ function App() {
         <div className="mt-6 xxl:mt-8">
           <Button />
         </div>
-
+        <ScrollGsap>
+        <div className="flex flex-col justify-center items-center">
         <div className="mt-6 xxl:mt8">
-          <ScrollGsap>
+
             <Profile />
-          </ScrollGsap>
+
         </div>
-      <ScrollGsap> 
+        </div>
+        </ScrollGsap>
+      <ScrollRightToLeft> 
         <div className="flex flex-col justify-center items-center">
           <div className="w-full flex flex-col gap-4 mt-6 xxl:mt-8 flex-wrap justify-center items-center xl:flex-row lg:max-w-[65%]">
             <SectionIcons />
@@ -77,17 +82,24 @@ function App() {
             <Button />
           </div>
         </div>
-        </ScrollGsap>
+        </ScrollRightToLeft>
+
         <span id="4"></span>
+
+        <ScrollLeftToRight> 
         <div className="flex flex-col items-center mt-6 xxl:mt-8 ">
           <div className="text-center relative">
             <H1>Feedbacks</H1>
           </div>
+          
           <span className="mt-6 xxl:mt-8">
-            {" "}
-            <ImageCarousel />{" "}
+           
+            <ImageCarousel />
+            
           </span>
         </div>
+        </ScrollLeftToRight>
+
         <div id="5" className="flex flex-col gap-4 max-w-[90%] mt-6 xxl:mt-8">
           <H1>E o melhor...</H1>
           <span>
