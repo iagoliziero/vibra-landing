@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col items-center h-screen bg-whiteMain m-0 p-0">
+      <div className="flex flex-col items-center h-screen bg-whiteMain m-0 p-0 ">
         <Header />
         <span id="1"></span>
         <div className="mt-[3.5rem] xl:mt-20 flex flex-col gap-4 max-w-[90%] ">
@@ -64,51 +64,53 @@ function App() {
           <Button />
         </div>
         <ScrollGsap>
-        <div className="flex flex-col justify-center items-center">
-        <div className="mt-6 xxl:mt8">
-
-            <Profile />
-
-        </div>
-        </div>
+          <div className="flex flex-col justify-center items-center">
+            <div className="mt-6 xxl:mt8">
+              <Profile />
+            </div>
+          </div>
         </ScrollGsap>
-      <ScrollRightToLeft> 
-        <div className="flex flex-col justify-center items-center">
-          <div className="w-full flex flex-col gap-4 mt-6 xxl:mt-8 flex-wrap justify-center items-center xl:flex-row lg:max-w-[65%]">
-            <SectionIcons />
-          </div>
+        <ScrollRightToLeft>
+          <div className="flex flex-col justify-center items-center">
+            <div className="w-full flex flex-col gap-4 mt-6 xxl:mt-8 flex-wrap justify-center items-center xl:flex-row lg:max-w-[65%]">
+              <SectionIcons />
+            </div>
 
-          <div className="mt-6 xxl:mt-8">
-            <Button />
+            <div className="mt-6 xxl:mt-8">
+              <Button />
+            </div>
           </div>
-        </div>
         </ScrollRightToLeft>
 
         <span id="4"></span>
 
-        <ScrollLeftToRight> 
-        <div className="flex flex-col items-center mt-6 xxl:mt-8 ">
-          <div className="text-center relative">
-            <H1>Feedbacks</H1>
-          </div>
-          
-          <span className="mt-6 xxl:mt-8">
-           
-            <ImageCarousel />
-            
-          </span>
-        </div>
-        </ScrollLeftToRight>
+        <ScrollLeftToRight>
+          <div className="flex flex-col items-center mt-6 xxl:mt-8 ">
+            <div className="text-center relative">
+              <H1>Feedbacks</H1>
+            </div>
 
-        <div id="5" className="flex flex-col gap-4 max-w-[90%] mt-6 xxl:mt-8">
-          <H1>E o melhor...</H1>
-          <span>
-            <Paragraph>
-              É de graça! Sem enrolação. Sem promessa mirabolante. Só um espaço
-              real, com muita troca e transformação juntas.
-            </Paragraph>
-          </span>
-        </div>
+            <span className="mt-6 xxl:mt-8">
+              <ImageCarousel />
+            </span>
+          </div>
+        </ScrollLeftToRight>
+        <ScrollGsap >
+          <div className="flex flex-col justify-center items-center">
+            <div
+              id="5"
+              className="flex flex-col gap-4 max-w-[90%] mt-6 xxl:mt-8"
+            >
+              <H1>E o melhor...</H1>
+              <span>
+                <Paragraph>
+                  É de graça! Sem enrolação. Sem promessa mirabolante. Só um
+                  espaço real, com muita troca e transformação juntas.
+                </Paragraph>
+              </span>
+            </div>
+          </div>
+        </ScrollGsap>
         <Footer />
       </div>
     </>

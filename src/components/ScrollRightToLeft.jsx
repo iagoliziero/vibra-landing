@@ -13,12 +13,12 @@ export default function ScrollRightToLeft({ children }) {
 
     gsap.fromTo(
       el,
-      { opacity: 0, x: -100 },
+      { opacity: 0, x: -50 },
       {
         opacity: 1,
         x: 0,
         duration: 1,
-        ease: 'power2.out',
+        ease: 'power3.out',
         scrollTrigger: {
           trigger: el,
           start: 'top 80%',
