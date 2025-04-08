@@ -9,15 +9,21 @@ import Profile from "./components/Profile";
 import SectionIcons from "./components/SectionIcons";
 import ImageCarousel from "./components/ImageCarousel";
 import Footer from "./components/Footer";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useLayoutEffect } from "react";
+import ScrollGsap from "./components/ScrollGsap";
 
 function App() {
+  useLayoutEffect(() => {}, []);
+
   return (
     <>
       <div className="flex flex-col items-center h-screen bg-whiteMain m-0 p-0">
         <Header />
         <span id="1"></span>
         <div className="mt-[3.5rem] xl:mt-20 flex flex-col gap-4 max-w-[90%] ">
-          <div  className="text-center relative ">
+          <div className="text-center relative ">
             <H1>Você sente que tá meio travada?</H1>
           </div>
           <span>
@@ -31,8 +37,8 @@ function App() {
         <div className="mt-6 xxl:mt8">
           <Button />
         </div>
-      
-        <div  className="flex flex-col gap-4 max-w-[90%]">
+
+        <div className="flex flex-col gap-4 max-w-[90%]">
           <div id="2" className="text-center relative">
             <H1>O que é a vibra?</H1>
           </div>
@@ -56,16 +62,22 @@ function App() {
           <Button />
         </div>
 
-        <div  className="mt-6 xxl:mt8">
-          <Profile />
+        <div className="mt-6 xxl:mt8">
+          <ScrollGsap>
+            <Profile />
+          </ScrollGsap>
         </div>
+      <ScrollGsap> 
+        <div className="flex flex-col justify-center items-center">
+          <div className="w-full flex flex-col gap-4 mt-6 xxl:mt-8 flex-wrap justify-center items-center xl:flex-row lg:max-w-[65%]">
+            <SectionIcons />
+          </div>
 
-        <div className="w-full flex flex-col gap-4 mt-6 xxl:mt-8 flex-wrap justify-center items-center xl:flex-row lg:max-w-[65%]">
-          <SectionIcons />
+          <div className="mt-6 xxl:mt-8">
+            <Button />
+          </div>
         </div>
-        <div className="mt-6 xxl:mt-8">
-          <Button />
-        </div>
+        </ScrollGsap>
         <span id="4"></span>
         <div className="flex flex-col items-center mt-6 xxl:mt-8 ">
           <div className="text-center relative">
@@ -75,7 +87,6 @@ function App() {
             {" "}
             <ImageCarousel />{" "}
           </span>
-        
         </div>
         <div id="5" className="flex flex-col gap-4 max-w-[90%] mt-6 xxl:mt-8">
           <H1>E o melhor...</H1>
