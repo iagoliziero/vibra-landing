@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex justify-center items-center w-full max-w-4xl md:max-w-2xl p-6">
             <Tooltip />
           </div>
-          <span > <ParagraphDarker> @analuzyza. Todos os direitos reservados.</ParagraphDarker>  </span>
+          <span > <ParagraphDarker> @analuyzac. Todos os direitos reservados.</ParagraphDarker>  </span>
         </footer>
      );
 }
