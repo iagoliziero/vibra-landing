@@ -13,7 +13,7 @@ const Profile = () => {
                         <H1> 
                         Quem está por trás?
                         </H1>
-                    <img src="/imgAna.png" alt="Imagem Ana Luyza" className=" rounded-full w-60 bg-whiteBG block mt-6 xxl:mt8 md:block lg:hidden" />
+                    <img  src={`${import.meta.env.BASE_URL}imgAna.png`} alt="Imagem Ana Luyza" className=" rounded-full w-60 bg-whiteBG block mt-6 xxl:mt8 md:block lg:hidden" />
                     </div>
                     <span className="mt-6"> <ParagraphDarker> 
                     Oi! Eu sou a Ana Luyza, influenciadora digital,
