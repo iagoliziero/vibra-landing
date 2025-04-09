@@ -31,7 +31,7 @@ const Profile = () => {
                     </div>
                      </div>  
                      <div className="hidden lg:block relative top-20">
-                        <img  src="./public/imgAna.png" alt="Imagem Ana Luyza" className="h-[20rem] rounded-full w-[25rem] bg-whiteBG " />
+                        <img  src="./imgAna.png" alt="Imagem Ana Luyza" className="h-[20rem] rounded-full w-[25rem] bg-whiteBG " />
                      </div>
           </div>
             
