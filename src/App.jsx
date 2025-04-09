@@ -23,7 +23,7 @@ function App() {
       <div className="flex flex-col items-center h-full bg-darker m-0 p-0 overflow-x-auto ">
         <Header />
         <span id="1"></span>
-        <div className="mt-[3.5rem] xl:mt-20 flex flex-col gap-4 max-w-[90%] ">
+        <div className="mt-[4.5rem] xl:mt-24 flex flex-col gap-4 max-w-[90%] ">
           <div className="text-center relative ">
             <H1>Você sente que tá meio travada?</H1>
           </div>
