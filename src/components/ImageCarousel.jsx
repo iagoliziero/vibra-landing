@@ -33,12 +33,12 @@ const ImageCarousel = () => {
         </CarouselContent>
 
         
-        <CarouselPrevious className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 p-3 rounded-full text-black hover:bg-opacity-80">
+        <CarouselPrevious className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 p-3 rounded-full text-white ">
           <ChevronLeft size={30} />
         </CarouselPrevious>
 
         
-        <CarouselNext className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 p-3 rounded-full text-black hover:bg-opacity-80">
+        <CarouselNext className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 p-3 rounded-full text-white">
           <ChevronRight size={30} />
         </CarouselNext>
 

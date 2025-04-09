@@ -1,4 +1,5 @@
-import Paragraph from "./Paragraph";
+import ParagraphDarker from "./ParagrahDarker";
+
 import Tooltip from "./Tooltip";
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
           <div className="flex justify-center items-center w-full max-w-4xl md:max-w-2xl p-6">
             <Tooltip />
           </div>
-          <span > <Paragraph> @analuzyza. Todos os direitos reservados.</Paragraph>  </span>
+          <span > <ParagraphDarker> @analuzyza. Todos os direitos reservados.</ParagraphDarker>  </span>
         </footer>
      );
 }

@@ -9,19 +9,18 @@ import Profile from "./components/Profile";
 import SectionIcons from "./components/SectionIcons";
 import ImageCarousel from "./components/ImageCarousel";
 import Footer from "./components/Footer";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 import { useLayoutEffect } from "react";
 import ScrollGsap from "./components/ScrollGsap";
 import ScrollLeftToRight from "./components/ScrollLeftToRight";
 import ScrollRightToLeft from "./components/ScrollRightToLeft";
 
+
 function App() {
-  useLayoutEffect(() => {}, []);
 
   return (
     <>
-      <div className="flex flex-col items-center h-screen bg-whiteMain m-0 p-0 ">
+      <div className="flex flex-col items-center h-full bg-darker m-0 p-0 overflow-x-auto ">
         <Header />
         <span id="1"></span>
         <div className="mt-[3.5rem] xl:mt-20 flex flex-col gap-4 max-w-[90%] ">

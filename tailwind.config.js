@@ -13,10 +13,10 @@ export default {
   	},
   	extend: {
   		colors: {
-  			whiteBG: '#F4F4F4',
+  			darker: '#262626',
   			lightPink: '#FFC0D6',
   			darkPink: '#E5457D',
-  			black: '#1E1E1E',
+  			white: '#f4f4f4',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
