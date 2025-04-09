@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function ScrollGsap({ children }) {
+export default function ScrollLeftToRight({ children }) {
   const sectionRef = useRef(null);
 
   useLayoutEffect(() => {
@@ -13,12 +13,12 @@ export default function ScrollGsap({ children }) {
 
     gsap.fromTo(
       el,
-      { opacity: 0, y: 50 },
+      { opacity: 0, x: 100 },
       {
         opacity: 1,
-        y: 0,
+        x: 0,
         duration: 1,
-        ease: 'power3.out',
+        ease: 'power2.out',
         scrollTrigger: {
           trigger: el,
           start: 'top 80%',

@@ -99,7 +99,7 @@ function App() {
           <div className="flex flex-col justify-center items-center">
             <div
               id="5"
-              className="flex flex-col gap-4 max-w-[90%] mt-6 xxl:mt-8"
+              className="flex flex-col gap-4 max-w-[90%] mt-6 xxl:mt-8 mb-6 xxl:mb-8"
             >
               <H1>E o melhor...</H1>
               <span>
