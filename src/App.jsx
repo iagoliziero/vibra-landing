@@ -9,7 +9,6 @@ import Profile from "./components/Profile";
 import SectionIcons from "./components/SectionIcons";
 import ImageCarousel from "./components/ImageCarousel";
 import Footer from "./components/Footer";
-
 import ScrollGsap from "./components/ScrollGsap";
 import ScrollLeftToRight from "./components/ScrollLeftToRight";
 import ScrollRightToLeft from "./components/ScrollRightToLeft";
