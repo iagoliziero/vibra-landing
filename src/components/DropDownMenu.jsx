@@ -12,9 +12,9 @@ const DropDownMenu = () => {
                 <div className="absolute top-10 right-0 bg-darker  border-2 border-darkPink rounded-md p-5 w-44 text-center">
                     <div className="flex flex-col items-center gap-2 ">
                         <a href="#1" className="hover:text-darkPink transform duration-500 p-2 rounded-md text-xl font-medium  text-white">Você sente que tá meio travada?</a>
-                        <a href="#2" className="hover:text-darkPink p-2 rounded-md text-xl font-medium  text-white">O que é a vibra?</a>
-                        <a href="#3" className="hover:text-darkPink p-2 rounded-md text-xl font-medium  text-white">Quem está por trás?</a>
-                        <a href="#4" className="hover:text-darkPink p-2 rounded-md text-xl font-medium  text-white">Feedbacks</a>
+                        <a href="#2" className="hover:text-darkPink p-2 rounded-md duration-500 text-xl font-medium  text-white">O que é a vibra?</a>
+                        <a href="#3" className="hover:text-darkPink p-2 rounded-md text-xl duration-500 font-medium  text-white">Quem está por trás?</a>
+                        <a href="#4" className="hover:text-darkPink p-2 rounded-md text-xl duration-500 font-medium  text-white">Feedbacks</a>
                         <a href="#5" className="hover:text-darkPink transform duration-500 p-2 rounded-md text-xl font-medium text-white">E o melhor...</a>
                     </div>
                     <div className="mt-10">
