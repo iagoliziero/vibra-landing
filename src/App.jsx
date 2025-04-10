@@ -10,7 +10,6 @@ import SectionIcons from "./components/SectionIcons";
 import ImageCarousel from "./components/ImageCarousel";
 import Footer from "./components/Footer";
 
-import { useLayoutEffect } from "react";
 import ScrollGsap from "./components/ScrollGsap";
 import ScrollLeftToRight from "./components/ScrollLeftToRight";
 import ScrollRightToLeft from "./components/ScrollRightToLeft";
@@ -23,6 +22,8 @@ function App() {
       <div className="flex flex-col items-center h-full bg-darker m-0 p-0 overflow-x-auto ">
         <Header />
         <span id="1"></span>
+        <ScrollGsap>
+        <div className="flex justify-center flex-col items-center">
         <div className="mt-[4.5rem] xl:mt-24 flex flex-col gap-4 max-w-[90%] ">
           <div className="text-center relative ">
             <H1>Você sente que tá meio travada?</H1>
@@ -59,9 +60,11 @@ function App() {
           </div>
         </div>
         <span id="3"></span>
-        <div className="mt-6 xxl:mt-8">
+        <div className="mt-6 xxl:mt-8 ">
           <Button />
         </div>
+        </div>
+        </ScrollGsap>
         <ScrollGsap>
           <div className="flex flex-col justify-center items-center">
             <div className="mt-6 xxl:mt8">
